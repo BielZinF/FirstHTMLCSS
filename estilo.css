@@ -1,0 +1,66 @@
+
+.bloco_dark{
+    text-align: center;
+    background-color: rgb(53, 53, 53);
+    font: 1em Monospace;
+    font-size: 16;
+    color:white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bloco_dar{
+    text-align: center;
+    background-color :rgb(44, 44, 44);
+    color: white;
+    font: 1em Monospace;
+    font-size: 32;
+}
+
+.bloco_aviso:read-only{
+    padding: 5px;
+    margin: 16px;
+    text-align: center;
+    background-color :rgb(80, 80, 80, 80);
+    color: white;
+    font: 1em Monospace;
+    font-size: 32;
+}
+
+.bloco_aviso:default{
+    background-color :rgb(80, 80, 80, 0);
+    color: white;
+    transition: 1s;
+}
+
+.container_botoes{
+    margin: 40px;
+    background-color:rgb(44, 44, 44);
+}
+
+
+.botao{
+    width: 200px;
+    padding: 4px;
+    display: block;
+    font: 1em Monospace;
+    background-color: rgb(39, 39, 39);
+    size: 32px;
+    color: antiquewhite;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    transition: cubic-bezier(0, 1, 1, 1) 1s;
+}
+
+.botao:hover{
+    padding: 15px;
+    background-color: rgb(85, 85, 85);
+}
+
+.botao:active{
+    padding: 2px;
+    background-color: rgb(24, 24, 24);
+    transition: cubic-bezier(0, 1, 1, 1) 0.05s;
+}
+
